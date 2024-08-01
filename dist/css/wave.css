@@ -1,0 +1,91 @@
+html {
+  scroll-behavior: smooth;
+}
+.wave1-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  background: #f9f6ee;
+}
+
+.wave1-top svg {
+  position: relative;
+  display: block;
+  width: calc(105% + 1.3px);
+  height: 77px;
+  rotate: 180deg;
+}
+
+.wave1-top .shape-fill {
+  fill: #dfb78c;
+}
+
+.wave2-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  background: #f9f6ee;
+}
+
+.wave2-bottom svg {
+  position: relative;
+  display: block;
+  width: calc(105% + 1.3px);
+  rotate: 180deg;
+  height: 77px;
+}
+
+.wave2-bottom .shape-fill {
+  fill: #dfb78c;
+}
+
+.wave3-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+  shape-renderer: crispEdges;
+}
+
+.wave3-top svg {
+  position: relative;
+  display: block;
+  width: calc(105% + 1.3px);
+  height: 111px;
+}
+
+.wave3-top .shape-fill {
+  fill: #f9f6ee;
+}
+
+.wave4-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.wave4-bottom svg {
+  position: relative;
+  display: block;
+  width: calc(112% + 1.3px);
+  height: 52px;
+  transform: rotateY(180deg);
+  shape-renderer: crispEdges;
+}
+
+.wave4-bottom .shape-fill {
+  fill: #f9f6ee;
+}
