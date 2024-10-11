@@ -7,11 +7,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        tan: "#dfb78c",
+        tan: "#b57047",
+
         mocha: "#563829",
-        pale: "#e7c995",
-        salmon: "#de9b67",
-        shell: "#F9F6EE",
+        offWhite: "#fcf2eb",
+        terracota: "#b57047",
+        offBrown: "b58c69",
       },
       fontFamily: {
         abeezee: ["ABeeZee", "sans-serif"],
